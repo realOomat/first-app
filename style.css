@@ -1,0 +1,75 @@
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.baner__content h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D77474;
+}
+
+.baner__content h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #000000;
+
+}
+
+.baner__content {
+    height: 473px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.baner__content p {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C6C6C;
+    width: 421px;
+}
+
+.baner__content p span {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: red;
+    text-decoration: underline;
+
+}
+
+.baner__content button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #AC1313;
+    border-radius: 0px;
+    border: none;
+    padding: 20px 30px;
+}
+
+.baner {
+    background: url(./img/IMAGE\ \(18\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
